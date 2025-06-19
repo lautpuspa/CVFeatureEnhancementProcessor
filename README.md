@@ -18,7 +18,7 @@ A command-line tool for batch processing images with various computer vision fea
 Here's a demonstration of various transformations applied to a sample image:
 
 ### Original Image
-![Sample Image](img_source/sample_cat.jpg)
+![Sample Image](img_source/sampleimg.png)
 
 ### Edge Detection Examples
 ![Canny Edges](img_output/processed_19700000_000000/sampleimg_canny_edges.png)
