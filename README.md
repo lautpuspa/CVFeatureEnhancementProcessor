@@ -19,18 +19,28 @@ Here's a demonstration of various transformations applied to a sample image:
 
 ### Original Image
 ![Sample Image](img_source/sampleimg.png)
+*Original input image*
 
 ### Edge Detection Examples
 ![Canny Edges](img_output/processed_19700000_000000/sampleimg_canny_edges.png)
+*Canny edge detection with thresholds (50, 150) after Gaussian blur (5x5)*
+
 ![Structured Edges](img_output/processed_19700000_000000/sampleimg_structured_edges.png)
+*Advanced edge detection combining Sobel gradients with non-maximum suppression and double thresholding*
 
 ### Feature Enhancement
 ![CLAHE Enhanced](img_output/processed_19700000_000000/sampleimg_clahe_enhance.png)
+*CLAHE (Contrast Limited Adaptive Histogram Equalization) applied in LAB color space, clipLimit=2.0, tileGrid=8x8*
+
 ![Adaptive Threshold](img_output/processed_19700000_000000/sampleimg_adaptive_threshold.png)
+*Adaptive Gaussian thresholding with block size=11 and C=2*
 
 ### Feature Detection
 ![Corner Detection](img_output/processed_19700000_000000/sampleimg_corner_enhance.png)
+*Harris corner detection (blockSize=2, ksize=3, k=0.04) with corners highlighted in red*
+
 ![Blob Detection](img_output/processed_19700000_000000/sampleimg_blob_enhance.png)
+*Blob detection using SimpleBlobDetector with minThreshold=10, maxThreshold=200, minArea=100*
 
 ## Installation
 
