@@ -13,6 +13,25 @@ A command-line tool for batch processing images with various computer vision fea
 - Progress bar to track processing status
 - Organizes processed images in timestamped subfolders for easy tracking and comparison
 
+## Sample Results
+
+Here's a demonstration of various transformations applied to a sample image:
+
+### Original Image
+![Sample Image](img_source/sample_cat.jpg)
+
+### Edge Detection Examples
+![Canny Edges](img_output/processed_19700000_000000/sampleimg_canny_edges.png)
+![Structured Edges](img_output/processed_19700000_000000/sampleimg_structured_edges.png)
+
+### Feature Enhancement
+![CLAHE Enhanced](img_output/processed_19700000_000000/sampleimg_clahe_enhance.png)
+![Adaptive Threshold](img_output/processed_19700000_000000/sampleimg_adaptive_threshold.png)
+
+### Feature Detection
+![Corner Detection](img_output/processed_19700000_000000/sampleimg_corner_enhance.png)
+![Blob Detection](img_output/processed_19700000_000000/sampleimg_blob_enhance.png)
+
 ## Installation
 
 1. Clone this repository
